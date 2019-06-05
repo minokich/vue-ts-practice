@@ -1,4 +1,7 @@
 # vue-ts-practice
+参考URL
+[[Qiita] vue.js + typescript = vue.ts ことはじめ](https://qiita.com/nrslib/items/be90cc19fa3122266fd7)
+
 
 ## Project setup
 ```
