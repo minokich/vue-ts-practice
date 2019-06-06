@@ -18,6 +18,9 @@
       >
       </ResetButton>
     </p>
+    <p>
+      <CheckBox label="greetText1"></CheckBox>
+    </p>
   </div>
 </template>
 
@@ -25,11 +28,13 @@
   import { Component, Vue, Watch } from 'vue-property-decorator';
   import MyButton from '@/components/MyButton.vue'; // @ is an alias to /src
   import ResetButton from '@/components/ResetButton.vue'
+  import CheckBox from '@/components/CheckBox.vue'
 
   @Component({
     components: {
       MyButton,
       ResetButton,
+      CheckBox,
     },
   })
   export default class Home extends Vue {
